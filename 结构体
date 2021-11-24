@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct card{
+        char * face;
+        char * suit;
+    };                        //注意加上分号 或
+    
+    struct card{
+        char * face;
+        char * suit;
+    } aCard, deck[52], *cardPtr;
+    
+int main()
+{
+    struct card{
+        char * face;
+        char * suit;
+    };
+    return 0;//声明了一个card结构体
+}
